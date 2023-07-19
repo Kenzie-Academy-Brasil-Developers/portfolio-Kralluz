@@ -1,0 +1,29 @@
+footer{
+    width: 100%;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons{
+    width: 20px;
+}
+
+.boxIcons{
+    display: flex;
+    gap: 16px;
+    padding:12px 0;
+}

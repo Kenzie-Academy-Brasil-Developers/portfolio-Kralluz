@@ -1,3 +1,7 @@
-export const username = "JOSEDASILVA";
+const username = "CARLOS";
 
-export const user = "José da Silva";
+const user = "Carlos Henrique Alves";
+
+const phrase = "Do conceito à implementação, trazendo projetos à vida.";
+
+export {username, user, phrase}

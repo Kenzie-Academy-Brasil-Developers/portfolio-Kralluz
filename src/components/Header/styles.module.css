@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 24px;
+    gap: 16px;
+
+    @media (max-width: 425px){
+        justify-content: center;
+    }
+}
+.brand{
+    width: 130px;
+}
+
+nav{
+    display: flex;
+    gap: 24px;
+}

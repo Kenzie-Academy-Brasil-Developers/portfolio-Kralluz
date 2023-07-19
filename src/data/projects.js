@@ -1,18 +1,22 @@
 export const projects = [
   {
-    name: "Projeto 1",
-    description: "Atividade Props Card Pessoas",
+    name: "Tech Posters",
+    description: "Rede social simples para demonstrar aplicação dos modais e botões interativos.",
+    link:"https://tech-posters.vercel.app/",
   },
   {
-    name: "Projeto 2",
-    description: "Atividade Praticando Children",
+    name: "Open Music",
+    description: "Demonstro o uso do LocalStorage, dark theme e, filtros.",
+    link:"https://open-music-lake.vercel.app/",
   },
   {
-    name: "Projeto 3",
-    description: "Descrição do projeto",
+    name: "Desafio Cordel",
+    description: "Cordel simples.",
+    link:"https://desafio-cordel-xi.vercel.app/",
   },
   {
-    name: "Projeto 4",
-    description: "Descrição do projeto",
+    name: "Task List",
+    description: "Uma lista de tarefas onde é possível editar e definir prioridades.",
+    link:"https://task-list-three-alpha.vercel.app/",
   },
 ];
