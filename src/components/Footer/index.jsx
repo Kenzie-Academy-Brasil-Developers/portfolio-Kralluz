@@ -1,4 +1,4 @@
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 import {user} from '../../data/user';
 import linkedin from '../../assets/linkedin-icon.png';
 import whatsapp from '../../assets/whatsapp-icon.png';

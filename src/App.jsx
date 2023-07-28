@@ -1,5 +1,5 @@
-import styles from './styles.module.css'
-import reset from './reset.module.css'
+import styles from "./styles.module.css"
+import reset from "./reset.module.css"
 
 import { FooterComponent } from "./components/Footer"
 import { HeaderComponent } from "./components/Header"

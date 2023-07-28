@@ -10,9 +10,9 @@ export const projects = [
     link:"https://open-music-lake.vercel.app/",
   },
   {
-    name: "Desafio Cordel",
-    description: "Cordel simples.",
-    link:"https://desafio-cordel-xi.vercel.app/",
+    name: "Nu-Kenzie",
+    description: "Um app de controle de movimentações finaceiras",
+    link:"https://nu-kenzie-project-ki-ralluz-cesok2uj7-kralluz.vercel.app/",
   },
   {
     name: "Task List",
