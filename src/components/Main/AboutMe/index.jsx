@@ -1,11 +1,28 @@
-import styles from './styles.module.css'
+import styles from "./styles.module.css";
 
-export const AboutMeComponent = ()=>{
-    return(
-        <section className={styles.aboutMe}>
+export const AboutMeComponent = () => {
+    return (
+        <section id="about" className={styles.aboutMe}>
             <h2 className={styles.title1}>Sobre mim</h2>
-            <p className={styles.phrase}>Olá, meu nome é Carlos e estudo na Kenzie Academy, onde estou adquirindo habilidades para me tornar um desenvolvedor Fullstack. Minhas habilidades técnicas incluem a criação de aplicativos web incríveis e a solução de problemas complexos de programação, mas também estou desenvolvendo soft skills importantes para ter sucesso na indústria de tecnologia.
-            Uma das soft skills que estou aprendendo é a colaboração em equipe. Na Kenzie, trabalhamos em projetos com outros estudantes, o que me ajuda a aprimorar minhas habilidades de comunicação e trabalho em equipe. Além disso, estou aprendendo a resolver problemas de forma eficiente e a pensar fora da caixa para encontrar soluções criativas.</p>
+            <p className={styles.phrase}>
+                Olá, meu nome é Carlos, sou um desenvolvedor Full Stack formado
+                pela Kenzie Academy, com uma sólida experiência na resolução de
+                problemas lógicos e identificação precisa de bugs. Minha
+                especialização abrange as linguagens JavaScript, TypeScript e
+                Python, e meu histórico inclui o desenvolvimento de aplicações
+                web utilizando tecnologias modernas e eficientes como React JS,
+                Next JS, Bootstrap, Styled Components, Sass e Tailwind CSS. No
+                âmbito do back-end, destaco minha proficiência em Node.js com
+                Express e Nest, bem como minha experiência em Python utilizando
+                Django Rest Framework. Possuo uma sólida familiaridade e
+                expertise em frameworks como Express e Django, contribuindo para
+                a construção de soluções robustas. Adoto a metodologia ágil
+                Scrum, aplicando conceitos colaborativos e de entregas
+                iterativas. Além disso, tenho experiência comprovada em
+                integração de APIs, complementada por uma abordagem de
+                aprendizado rápido que aprimora minha habilidade de resolução de
+                problemas.
+            </p>
         </section>
-    )
-}
+    );
+};

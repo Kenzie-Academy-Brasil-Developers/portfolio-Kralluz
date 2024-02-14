@@ -8,11 +8,13 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding-bottom: 12px;
+    padding: 12px 66px 42px 20px;
 }
 
 .main__card{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 24px;
 
@@ -28,7 +30,6 @@
     border-radius: 1.5625rem;
     border: 2px solid rgba(255, 255, 255, 0.50);
     width: 26.5rem;
-    height: 5.375rem;
     flex-shrink: 0;
     padding: 2%;
 }

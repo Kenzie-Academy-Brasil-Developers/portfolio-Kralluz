@@ -5,8 +5,8 @@ import { FooterComponent } from "./components/Footer"
 import { HeaderComponent } from "./components/Header"
 import { AboutMeComponent } from "./components/Main/AboutMe"
 import { ProjectsComponent } from "./components/Main/Projects"
-import { TecnologiesComponent } from "./components/Main/Tecnologies"
-import { WellcomeComponent } from "./components/Main/Wellcome"
+import { TechnologiesComponent } from "./components/Main/Technologies"
+import { WelcomeComponent } from "./components/Main/Welcome"
 
 function App() {
 
@@ -14,9 +14,9 @@ function App() {
     <>
       <div className={styles.index}>
       <HeaderComponent/>
-        <WellcomeComponent/>
+        <WelcomeComponent/>
         <AboutMeComponent/>
-        <TecnologiesComponent/>
+        <TechnologiesComponent/>
         <ProjectsComponent/>
       <FooterComponent/>
       </div>

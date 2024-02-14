@@ -1,0 +1,79 @@
+.technologiesSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title1 {
+    color: #fff;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 12px 66px 42px 20px;
+}
+.mainCard {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: 100%;
+
+    @media (max-width: 1024px) {
+        justify-content: center;
+    }
+}
+
+.card {
+    background-color: rgb(255, 0, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 1.5625rem;
+    border-left: 2px solid rgba(255, 0, 0, 0.5);
+    flex-shrink: 0;
+    padding: 1%;
+    width: 90vw;
+    height: 100px;
+    box-shadow: 100px 10px 10px rgba(0, 0, 0, 0.5) inset !important;
+
+    @media (max-width: 425px) {
+        width: 18rem;
+    }
+}
+
+.icons {
+    width: 25px;
+}
+
+.divContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+
+.divContainer:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background: linear-gradient(to right, black 0%, transparent 100%);
+    z-index: 2;
+}
+
+.divContainer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    background: linear-gradient(to left, black 0%, transparent 100%);
+    z-index: 2;
+}

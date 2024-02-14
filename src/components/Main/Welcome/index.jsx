@@ -3,7 +3,7 @@ import {username} from '../../../data/user.js'
 import {phrase} from '../../../data/user.js'
 import img from '../../../assets/banner-img.png'
 
-export const WellcomeComponent = ()=>{
+export const WelcomeComponent = ()=>{
     return(
         <section className={styles.mainContainerBox}>
             <div className={styles.mainContainer}>

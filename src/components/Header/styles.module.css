@@ -19,3 +19,29 @@ nav{
     display: flex;
     gap: 24px;
 }
+
+.title1{
+    color: #FFF;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.icons{
+    width: 20px;
+}
+
+.boxIcons{
+    background-color: transparent;
+    display: flex;
+    gap: 16px;
+    padding:12px 0;
+}

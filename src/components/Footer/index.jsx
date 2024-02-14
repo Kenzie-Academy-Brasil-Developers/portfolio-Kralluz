@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import {user} from '../../data/user';
 import linkedin from '../../assets/linkedin-icon.png';
-import whatsapp from '../../assets/whatsapp-icon.png';
+import instagram from '../../assets/instagram-svg.svg';
 import github from '../../assets/github-icon.png';
 
 export const FooterComponent = ()=>{
@@ -13,7 +13,7 @@ export const FooterComponent = ()=>{
             <div className={styles.footer__contact}>
                 <h2>Contato</h2>
                 <div className={styles.boxIcons}>
-                    <a href="https://www.instagram.com/chenriqueal/" target='_blank'><img className={styles.icons} src={whatsapp} alt="" /></a>
+                    <a href="https://www.instagram.com/chenriqueal/" target='_blank'><img className={styles.icons} src={instagram} alt="" /></a>
                     <a href="https://www.linkedin.com/in/carlos-henrique-alves-2505a8249/" target='_blank'><img className={styles.icons} src={linkedin} alt="" /></a>
                     <a href="https://github.com/kralluz" target='_blank'><img className={styles.icons} src={github} alt="" /></a>
                     
